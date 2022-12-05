@@ -14,6 +14,12 @@ A V0 Toolhead using LGX Gears
 - nothing to release yet, however the CAD is in the repo for a first review
 
 
+## Some renderings of the new Design
+
+![Ghost 03](Images/ghost_alpha1_01.png)
+![Ghost 03](Images/ghost_alpha1_02.png)
+![Ghost 03](Images/ghost_alpha1_03.png)
+
 
 
 # Some first shots ..
