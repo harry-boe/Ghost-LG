@@ -5,7 +5,7 @@ A V0 Toolhead using LGX Gears
 
 
 
-# Cangelog:
+# Changelog:
 
 05.12.2022:
 
