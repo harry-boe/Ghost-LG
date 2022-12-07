@@ -18,7 +18,7 @@ However I try to maintain the items below for the final design.
 | Hotend 	                    | 1      	|  	| Phaetos Dragon                      	|
 | M3x18 BHSC                   	| 2      	|                                                       	| 	|
 | M3x20 BHSC                   	| 2      	|                                                       	| 	|
-| M3x6 BHSC                   	| 2      	|                                                       	| 	|
+| M3x6 BHSC                   	| 1      	|                                                       	| 	|
 | M3 Heat Inserts               | 2      	|                                                       	| 	|
 | PTFE Tube                   	| 40mm      |                                                       	|  	                    |
 
