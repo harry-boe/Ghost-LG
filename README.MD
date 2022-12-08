@@ -27,7 +27,7 @@ However I try to maintain the items below for the final design.
 | Item                         	| Amount 	| Sourcing                                              	| Notes               	|
 |------------------------------	|--------	|-------------------------------------------------------	|---------------------	|
 | Individual NeoPixels     	    | 2      	| https://learn.adafruit.com/adafruit-neopixel-uberguide/individual-neopixels	|                     	|
-| 3x18mm Pin                    | 3         | https://www.aliexpress.com/item/1005002473550667.html | For those who want the pins alligned with the case |
+| 3x15mm Pin                    | 3         | https://www.aliexpress.com/item/1005002473550667.html | For those who want the pins alligned with the case |
 | Omron Microswitch | 1 |               | For filamentsensor (if üpossible) |
 | 4.5 mmm Stainless Steel Solid Ball | 1 | https://www.aliexpress.com/item/1005004091669583.html | For filamentsensor (if üpossible) |
 
