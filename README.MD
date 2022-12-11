@@ -8,24 +8,23 @@ A V0 Toolhead using LGX Gears
 
 ## Design Goals
 
-- Print Quality
-    The Mini AB is hard to get right. Missaligment on the drive gears and also potetial of centric gears due to the set screws affect print quality
-    The LGX Gears solve this problem by running on needle bearings and not using set screws. They can also move axial on the bearings, which basicaly means that they are self adjusting.
-- Maintain MINI AB footprint
-    At least on the important dimensions which are 
-    - Mount to font 
-    - Distance to Top (to maintan clearence with tophead)
-    - Width (espacialy for IDEX use)
-    The Ghost LG maintains thode measuremets by beeing 3mm smaller on width
-    Distance to the beack is +5mm (there is enough room here)
-    Distance to the nozzle end is +4mm dragon and +6mm Revo.
-    This meas that the bed needs to belowered by those distances. This is no Issue for the V0 and most of the Ant printers.
-- Voron Design language
-    Well basicaly the new stealth design 
-- Optimized for IDEX 
-    Minimize with (-3mm)
-    Nozzle height adjustment. There is a slot for the mounting screws to the X-carriage to enable some height adjuszment.
-- Easy to assamble
+-	Print Quality: 
+
+    The Mini AB is hard to get right. Misalignment on the drive gears and also potential of centric gears due to the set screws affect print quality The LGX Gears solve this problem by running on needle bearings and not using set screws. They can also move axial on the bearings, which basically means that they are self-adjusting.
+-	Maintain MINI AB footprint 
+
+    At least on the important dimensions which are
+	- Mount to font
+    - Distance to Top (to maintain clearance with top-head)
+    - Width (especially for IDEX use) 
+        The Ghost LG maintains those measurements by being 3mm smaller on width Distance to the back is +5mm (there is enough room here) Distance to the nozzle end is +4mm dragon and +6mm Revo. This means that the bed needs to be lowered by those distances. This is no Issue for the V0 and most of the Ant printers.
+
+- Voron Design language Well basically the new stealth design
+
+- Optimized for IDEX Minimize with (-3mm) Nozzle height adjustment. There is a slot for the mounting screws to the X-carriage to enable some height adjustment.
+
+- Easy to assemble
+
 
 ## Printing notes
 
