@@ -45,6 +45,7 @@ However I try to maintain the items below for the final design.
 | 4015 Turbo Blower 40x40x15MM 	| 1      	| https://www.aliexpress.com/item/1005004909471864.html 	| Modifcation required  |
 | 3010 axial fan 24V	| 1      	| 	|  |
 | Hotend 	                    | 1      	| Phaetos Dragon  	|  Revo in preparation   |
+| Nema 14 36mm pankake stepper motor	                    | 1      	| 17mm or 20mm  	|  use the right rear cover  |
 | M3x18 BHSC                   	| 2      	|                                                       	| 	|
 | M3x20 BHSC                   	| 2      	|                                                       	| 	|
 | M3x6 BHSC                   	| 4      	|                                                       	| 	|
