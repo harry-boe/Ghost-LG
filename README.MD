@@ -17,7 +17,9 @@ A V0 Toolhead using LGX Gears
 	- Mount to front
     - Distance to Top (to maintain clearance with top-head)
     - Width (especially for IDEX use) 
-        The Ghost LG maintains those measurements by being 3mm smaller on width Distance to the back is +5mm (there is enough room here) Distance to the nozzle end is +4mm dragon and +6mm Revo. This means that the bed needs to be lowered by those distances. This is no Issue for the V0 and most of the Ant printers.
+        
+	
+The Ghost LG maintains those measurements by being 3mm smaller on width Distance to the back is +5mm (there is enough room here) Distance to the nozzle end is +4mm dragon and +6mm Revo. This means that the bed needs to be lowered by those distances. This is no Issue for the V0 and most of the Ant printers.
 
 - Voron Design language Well basically the new stealth design
 
