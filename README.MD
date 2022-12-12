@@ -69,6 +69,9 @@ However I try to maintain the items below for the final design.
 
 # Changelog:
 
+12.12.2022:
+- Draft Manual added
+
 11.12.2022:  Beta-1
 - Functional Extruder CAD and STL's released
 - No bells and whistles for now. LED's and Filament sensor requires some more thonkering
