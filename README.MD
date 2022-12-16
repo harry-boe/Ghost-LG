@@ -69,6 +69,11 @@ However I try to maintain the items below for the final design.
 
 # Changelog:
 
+15.12.2022
+- Added a sub-folder in the STL's directory with part required for those using a stripped done LGX-Lite
+- Added a sub-folder in the STL's directory with a mount and cover for the PanCake board
+- Alternate gearbox front-section that uses a Bondtech Push-Fit collet instead on the E3D collet
+
 12.12.2022:
 - Draft Manual added
 
