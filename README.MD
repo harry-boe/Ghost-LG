@@ -69,6 +69,14 @@ However I try to maintain the items below for the final design.
 
 # Changelog:
 
+06.01.2023
+- new gearbox front STL for Bontech Push Collet
+- updated mid section with locking bolts for cowling
+- updated rear section with more room for cable management
+- Cowling: bolt locking added. Updated cable channels
+- New mount for BTT EBB 36 Can Bus boards 
+
+
 15.12.2022
 - Added a sub-folder in the STL's directory with part required for those using a stripped done LGX-Lite
 - Added a sub-folder in the STL's directory with a mount and cover for the PanCake board
