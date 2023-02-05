@@ -1,9 +1,83 @@
-# Ghost LG Toolhead - Beta-1 11.12.2022
+# Ghost LG Toolhead - RC1 - 5.1.23
+
+![RC1](./Images/IMG_7626.jpg)
 
 A V0 Toolhead using LGX Gears
 
-![Ghost 03](Images/beta-1_01.png)
-![Ghost 03](Images/beta-1_02.png)
+This is the release candidate 1. The beta version had plenty of testing with great results, and as expected room for improvements.
+So, this release adds new features as well as many enhancements over the beta release.
+
+New Features:
+
+- Various cowling covers with mounts for probes
+    - Euklic Probe - This is the one the I was using during the beta tests
+      I'm using the euklid probe with my ServoKlicky dock
+    - ZeroClick - mount for zruncho's clicky probe. The position as derived from the MiniAB, so it should work with the docks
+    - PINDA inductive probe. Popular probe used on the Prusa MK3 printers. Maybe not the most accurate but defiantly the most hassle free installation.
+      No Dock or complex macro definitions required. Not the klipper currently does not support the 4 wire probe with temp compensation in the firmware.
+      If you like to have temp compensation make shure you order a Super PINDA (https://www.aliexpress.com/item/1005004488098625.html)
+    - and last but not least a cover without any probe mounts
+
+- New diffusor for Logo LED 
+    - Maybe not for everybody as wiring is not easy.
+
+- Anti squish adjustment thingy 
+    - I don't think that's a requirement but a added one because this as popular right now
+
+- Mounting screws for the cowling
+    - The click on cowling came off a few times during my tests. So I added some self-tapping screws to mount it on the gearbox.
+      This makes the whole toolhead way more rigid which is especially important for all cowling that have probes attached
+
+Enhancements
+
+- Cowling
+    - fighting thin walls. Lots of tweaks here and there to improve printability 
+    - New fan ducts. They are now moved forward like on the MiniSB. This allows for probe mounts without impact on the air channels
+    - Improved air channels.
+        The overall cooling performance is surprisingly good. But there was less cooling on the front side of the prints.
+        The new air channels provide better flow in that area
+    - Wiring channels
+        The toolhead is now 2mm wider at the rear center (still same footprint). This creates more room for the wires exiting the toolhead
+        Wire channel for cooling fan and nozzle LED redesigned.
+        This section has now a break-away support which allows to route the wires without heaving to rempove the connectors.
+        Also the cable channels are increased in size
+    - Some minor design tweak on top of the toolhead for aesthetic reasons
+
+- Gearbox
+    - As mentioned the gearbox is now 2mm wider mid center (it not really visually noticeable)
+    - Much wider cable channels to simplify wiring
+    - New Latch geometry.
+        The latch now pushed the idler back when opened (was a community suggestion)
+    - Strengthened latch shuttle
+    - Mid and rear section are bolted together with a countersunk screw.
+        This make the toolhead much more rigid
+    - Small changes on the idler to provide access to the anti-squish thing
+    - the standard bowden collet is now the one from bondtech. It's much smaller and works better
+
+- Board Mounts
+    - EBB36 Mount
+        - added a zip mount for the heater and thermistor wires
+        - added a zip mount for the CANbus cable to eliminate stress on the connector and wires
+    - The other mounts have no changes
+
+
+## RC1 with EBB36 mount
+![RC1](./Images/b540988c-66e0-4e21-9451-cd0425203c92.PNG)
+
+## PINDA Probe mount
+![RC1](./Images/Ghost_LG_Gearbox.2_2023-Feb-04_08-12-34PM-000_CustomizedView31221128014.png)
+
+## Euklid Probe Mount
+![RC1](./Images/Euklid.jpg)
+
+## ZeroClick Probe Mount
+![RC1](./Images/ZC.jpg)
+
+## Logo LED / Wire channel with break-away support / New fan ducts
+![RC1](./Images/Cowling_Front_Cover_E2_2023-Feb-05_12-07-27AM-000_CustomizedView832678466.png)
+
+## New latch geometry / Anti-squish adjustment
+![RC1](./Images/Gearbox.jpg)
 
 
 ## Design Goals
@@ -32,6 +106,7 @@ The Ghost LG maintains those measurements by being 3mm smaller on width Distance
 
 All parts print with standard Voron settings and no supports.
 However the parts have fine details and tight tolerances. Make sure you printer is erll calibratd and use reasonable print speeds
+Consider a brim for the EBB mount as the contact patch on the print bed is very small
 
 
 ## BOM
@@ -51,8 +126,9 @@ However I try to maintain the items below for the final design.
 | M3x18 BHSC                   	| 2      	|                                                       	| 	|
 | M3x20 BHSC                   	| 2      	|                                                       	| 	|
 | M3x6 BHSC                   	| 4      	|                                                       	| 	|
-| M3x6 countersunk flat head screws                   	| 1      	|                                                       	| 	|
-| M3 Heat Inserts               | 5      	|                                                       	| 	|
+| M3x6 countersunk flat head screws                   	| 3      	|                                                       	| 	|
+| 2x8 or 2x10 self tapping screw                   	| 2      	|                                                       	| 	|
+| M3 Heat Inserts               | 6      	|                                                       	| 	|
 | PTFE Tube                   	| 17mm      |                                                       	|  	                    |
 
 ### Optional Parts
@@ -68,6 +144,12 @@ However I try to maintain the items below for the final design.
 
 
 # Changelog:
+
+5.1.2012 RC1
+- see discription above
+- note that the manual has not been updated yet
+- same for the pin mod
+
 
 06.01.2023
 - new gearbox front STL for Bontech Push Collet
