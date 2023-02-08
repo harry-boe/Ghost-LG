@@ -145,6 +145,9 @@ However I try to maintain the items below for the final design.
 
 # Changelog:
 
+8.1.23
+- pin mod updated
+
 5.1.2012 RC1
 - see discription above
 - note that the manual has not been updated yet
