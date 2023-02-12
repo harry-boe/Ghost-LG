@@ -145,6 +145,11 @@ However I try to maintain the items below for the final design.
 
 # Changelog:
 
+12.2.2023
+- updated CAD file (assembled) - there where some parts missing in the CAD
+- added a shortage prevention cover for the euklid probe
+- bigger mounting holes for euklid probe to prevent braking the part
+
 8.1.23
 - pin mod updated
 
