@@ -145,6 +145,9 @@ However I try to maintain the items below for the final design.
 
 # Changelog:
 
+21.3.23
+- 20mm EBB CAN Mount stl added
+
 12.2.2023
 - updated CAD file (assembled) - there where some parts missing in the CAD
 - added a shortage prevention cover for the euklid probe
