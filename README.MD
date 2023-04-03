@@ -121,7 +121,7 @@ However I try to maintain the items below for the final design.
 | HGX-Lite Etruder Gear Kit    	| 1      	| https://www.aliexpress.com/item/1005004699143725.html 	| Provided 3mm pins can be used but do not allign with case                    	|
 | 4015 Turbo Blower 40x40x15MM 	| 1      	| https://www.aliexpress.com/item/1005004909471864.html 	| Modifcation required  |
 | 3007 axial fan 	| 1      	| 	|  |
-| Hotend 	                    | 1      	| Phaetos Dragon  	|  Revo in preparation   |
+| Hotend 	                    | 1      	| Phaetos Dragon, E3D Revo  	|   |
 | Nema 14 36mm pankake stepper motor	                    | 1      	| 17mm or 20mm  	|  use the right rear cover  |
 | M3x18 BHSC                   	| 2      	|                                                       	| 	|
 | M3x20 BHSC                   	| 2      	|                                                       	| 	|
@@ -144,6 +144,12 @@ However I try to maintain the items below for the final design.
 
 
 # Changelog:
+
+3.04.2023
+- Added support for the e3d Revo Hotend
+- Added Ghost LG-R stl files
+- Changes in directory structure due to the Ghost LG-R variant
+- updated EBBCan PCB Cover
 
 21.3.23
 - 20mm EBB CAN Mount stl added
