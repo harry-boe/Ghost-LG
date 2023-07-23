@@ -6,7 +6,7 @@
 
 | Ghost LG - Gearbox without front section to show Bondtech LG gears arangement | 
 |--- |
-| ![RC2](./Images/RC2-Gearbox.png) | 
+| ![RC2](./Images/RC2-Gearbox.PNG) | 
 
 This is the release candidate 2. This release is the result of extensive testing and pushing the toolhead to the limits.
 Well i found the limits and started melting the plastic parts due to excessive stepper temps. And that's where this release kicks in.
