@@ -1,11 +1,140 @@
+
+# Ghost LG Toolhead - RC2 18.07.23
+
+
+## A V0 Toolhead using LGX Gears
+
+| Ghost LG - Gearbox without front section to show Bondtech LG gears arangement | 
+|--- |
+| ![RC2](./Images/RC2-Gearbox.png) | 
+
+This is the release candidate 2. This release is the result of extensive testing and pushing the toolhead to the limits.
+Well i found the limits and started melting the plastic parts due to excessive stepper temps. And that's where this release kicks in.
+
+Changes:
+- Gearbox
+  - Updated and strengthened idler
+  - Updated beefier latch shuttle
+  - Updated mid-section adopted to the new latch shuttle
+- Motor Cover
+  - Updated EBB35 mount with improved cooling and ventilation cut-outs
+  - Updated pancake PCB mount 
+- Cowling
+	- Multiple minor changes to eliminate thin walls
+	- Fix: Pinda probe mount. I did not had a Pinda probe to test so the old version mount was 1mm to small (diameter)
+
+
+
+## Variations
+
+### Hotends 
+
+- Dragon style mounts 
+    There are several hotends available that use the Drogon type mounting pattern including the Dragon itself, the dragon fly, Lizard, Lizard pro and others. In fact most of my testing was done with a red lizard
+- Revo
+  Currently one of the mor popular changes. The cowling as 2mm longer to adapt for the longer hotend. This version should provide improoved cooling as the smaller heat block allows for more airflow.
+
+### Bed probes
+
+- Euklid probe
+  Most of my testing was done wit this probe. It looks kind of wierd but it works verry well.
+  I'm using this probe with my Servo-Klicky dock.
+- Zero Klick
+  Another popular choice in the Ant printer universe.
+  Should work as well with Servo Klicky dock and the standard Zero Klick docking solutions.
+- Pinda Probe (SuperPinda)
+  Inductive Probe if you don't like to deal with probe docking solutions
+
+
+# Some impressions
+
+
+| Ghost LG Toolhead | |
+|--- |--- |
+| ![RC2](./Images/RC2-left.png) | ![RC2](./Images/RC2-right.png) |
+
+
+
+| Multiple Hotend and Probes | |
+|--- |--- |
+| ![RC2](./Images/RC2-dragon-euklid.png) | ![RC2](./Images/RC2-df-zk.png) |
+| Dragon Hotend / Euklid Probe | Dragon-Fly / ZeroKlick Probe |
+| ![RC2](./Images/RC2-revo-pinda.png) | ![RC2](./Images/RC2-NP.PNG) |
+| Revo / Pinda Probe | Revo / No Probe |
+
+
+
+
+## Design Goals
+
+-	Print Quality: 
+
+    The Mini AB is hard to get right. Misalignment on the drive gears and also potential of centric gears due to the set screws affect print quality The LGX Gears solve this problem by running on needle bearings and not using set screws. They can also move axial on the bearings, which basically means that they are self-adjusting.
+-	Maintain MINI AB footprint 
+
+    At least on the important dimensions which are
+	- Mount to front
+    - Distance to Top (to maintain clearance with top-head)
+    - Width (especially for IDEX use) 
+        
+	
+The Ghost LG maintains those measurements by being 3mm smaller on width Distance to the back is +5mm (there is enough room here) Distance to the nozzle end is +4mm dragon and +6mm Revo. This means that the bed needs to be lowered by those distances. This is no Issue for the V0 and most of the Ant printers.
+
+- Voron Design language Well basically the new stealth design
+
+- Optimized for IDEX Minimize with (-3mm) Nozzle height adjustment. There is a slot for the mounting screws to the X-carriage to enable some height adjustment.
+
+- Easy to assemble
+
+
+## Printing notes
+
+All parts print with standard Voron settings and no supports.
+However the parts have fine details and tight tolerances. Make sure you printer is erll calibratd and use reasonable print speeds
+Consider a brim for the EBB mount as the contact patch on the print bed is very small
+
+
+## BOM
+
+The project is stoill in its early stage so the BOM is subject to changes.
+However I try to maintain the items below for the final design.
+
+### Required Parts
+
+| Item                         	| Amount 	| Sourcing                                              	| Notes               	|
+|------------------------------	|--------	|-------------------------------------------------------	|---------------------	|
+| HGX-Lite Etruder Gear Kit    	| 1      	| https://www.aliexpress.com/item/1005004699143725.html 	| Provided 3mm pins can be used but do not allign with case                    	|
+| 4015 Turbo Blower 40x40x15MM 	| 1      	| https://www.aliexpress.com/item/1005004909471864.html 	| Modifcation required  |
+| 3007 axial fan 	| 1      	| 	|  |
+| Hotend 	                    | 1      	| Phaetos Dragon  	|  Revo in preparation   |
+| Nema 14 36mm pankake stepper motor	                    | 1      	| 17mm or 20mm  	|  use the right rear cover  |
+| M3x18 BHSC                   	| 2      	|                                                       	| 	|
+| M3x20 BHSC                   	| 2      	|                                                       	| 	|
+| M3x6 BHSC                   	| 4      	|                                                       	| 	|
+| M3x6 countersunk flat head screws                   	| 3      	|                                                       	| 	|
+| 2x8 or 2x10 self tapping screw                   	| 2      	|                                                       	| 	|
+| M3 Heat Inserts               | 6      	|                                                       	| 	|
+| PTFE Tube                   	| 17mm      |                                                       	|  	                    |
+
+### Optional Parts
+
+| Item                         	| Amount 	| Sourcing                                              	| Notes               	|
+|------------------------------	|--------	|-------------------------------------------------------	|---------------------	|
+| Individual NeoPixels     	    | 2      	| https://learn.adafruit.com/adafruit-neopixel-uberguide/individual-neopixels	|                     	|
+| 3x15mm Pin                    | 3         | https://www.aliexpress.com/item/1005002473550667.html | For those who want the pins alligned with the case |
+| Omron Mouse Button - Micro Switch | 1 |               | For filamentsensor (if üpossible) |
+| 4.5 mmm Stainless Steel Solid Ball | 1 | https://www.aliexpress.com/item/1005004091669583.html | For filamentsensor (if üpossible) |
+
+
+
+
+# Older Versions
+
+
+
 # Ghost LG Toolhead - RC1 - 5.1.23
 
 ![RC1](./Images/IMG_7626.jpg)
-
-A V0 Toolhead using LGX Gears
-
-This is the release candidate 1. The beta version had plenty of testing with great results, and as expected room for improvements.
-So, this release adds new features as well as many enhancements over the beta release.
 
 New Features:
 
@@ -80,138 +209,10 @@ Enhancements
 ![RC1](./Images/Gearbox.jpg)
 
 
-## Design Goals
-
--	Print Quality: 
-
-    The Mini AB is hard to get right. Misalignment on the drive gears and also potential of centric gears due to the set screws affect print quality The LGX Gears solve this problem by running on needle bearings and not using set screws. They can also move axial on the bearings, which basically means that they are self-adjusting.
--	Maintain MINI AB footprint 
-
-    At least on the important dimensions which are
-	- Mount to front
-    - Distance to Top (to maintain clearance with top-head)
-    - Width (especially for IDEX use) 
-        
-	
-The Ghost LG maintains those measurements by being 3mm smaller on width Distance to the back is +5mm (there is enough room here) Distance to the nozzle end is +4mm dragon and +6mm Revo. This means that the bed needs to be lowered by those distances. This is no Issue for the V0 and most of the Ant printers.
-
-- Voron Design language Well basically the new stealth design
-
-- Optimized for IDEX Minimize with (-3mm) Nozzle height adjustment. There is a slot for the mounting screws to the X-carriage to enable some height adjustment.
-
-- Easy to assemble
-
-
-## Printing notes
-
-All parts print with standard Voron settings and no supports.
-However the parts have fine details and tight tolerances. Make sure you printer is erll calibratd and use reasonable print speeds
-Consider a brim for the EBB mount as the contact patch on the print bed is very small
-
-
-## BOM
-
-The project is stoill in its early stage so the BOM is subject to changes.
-However I try to maintain the items below for the final design.
-
-### Required Parts
-
-| Item                         	| Amount 	| Sourcing                                              	| Notes               	|
-|------------------------------	|--------	|-------------------------------------------------------	|---------------------	|
-| HGX-Lite Etruder Gear Kit    	| 1      	| https://www.aliexpress.com/item/1005004699143725.html 	| Provided 3mm pins can be used but do not allign with case                    	|
-| 4015 Turbo Blower 40x40x15MM 	| 1      	| https://www.aliexpress.com/item/1005004909471864.html 	| Modifcation required  |
-| 3007 axial fan 	| 1      	| 	|  |
-| Hotend 	                    | 1      	| Phaetos Dragon, E3D Revo  	|   |
-| Nema 14 36mm pankake stepper motor	                    | 1      	| 17mm or 20mm  	|  use the right rear cover  |
-| M3x18 BHSC                   	| 2      	|                                                       	| 	|
-| M3x20 BHSC                   	| 2      	|                                                       	| 	|
-| M3x6 BHSC                   	| 4      	|                                                       	| 	|
-| M3x6 countersunk flat head screws                   	| 3      	|                                                       	| 	|
-| 2x8 or 2x10 self tapping screw                   	| 2      	|                                                       	| 	|
-| M3 Heat Inserts               | 6      	|                                                       	| 	|
-| PTFE Tube                   	| 17mm      |                                                       	|  	                    |
-
-### Optional Parts
-
-| Item                         	| Amount 	| Sourcing                                              	| Notes               	|
-|------------------------------	|--------	|-------------------------------------------------------	|---------------------	|
-| Individual NeoPixels     	    | 2      	| https://learn.adafruit.com/adafruit-neopixel-uberguide/individual-neopixels	|                     	|
-| 3x15mm Pin                    | 3         | https://www.aliexpress.com/item/1005002473550667.html | For those who want the pins alligned with the case |
-| Omron Mouse Button - Micro Switch | 1 |               | For filamentsensor (if üpossible) |
-| 4.5 mmm Stainless Steel Solid Ball | 1 | https://www.aliexpress.com/item/1005004091669583.html | For filamentsensor (if üpossible) |
 
 
 
 
-# Changelog:
-
-3.04.2023
-- Added support for the e3d Revo Hotend
-- Added Ghost LG-R stl files
-- Changes in directory structure due to the Ghost LG-R variant
-- updated EBBCan PCB Cover
-
-21.3.23
-- 20mm EBB CAN Mount stl added
-
-12.2.2023
-- updated CAD file (assembled) - there where some parts missing in the CAD
-- added a shortage prevention cover for the euklid probe
-- bigger mounting holes for euklid probe to prevent braking the part
-
-8.1.23
-- pin mod updated
-
-5.1.2012 RC1
-- see discription above
-- note that the manual has not been updated yet
-- same for the pin mod
+# [Changelog:](./CHANGELOG.MD)
 
 
-06.01.2023
-- new gearbox front STL for Bontech Push Collet
-- updated mid section with locking bolts for cowling
-- updated rear section with more room for cable management
-- Cowling: bolt locking added. Updated cable channels
-- New mount for BTT EBB 36 Can Bus boards 
-
-
-15.12.2022
-- Added a sub-folder in the STL's directory with part required for those using a stripped done LGX-Lite
-- Added a sub-folder in the STL's directory with a mount and cover for the PanCake board
-- Alternate gearbox front-section that uses a Bondtech Push-Fit collet instead on the E3D collet
-
-12.12.2022:
-- Draft Manual added
-
-11.12.2022:  Beta-1
-- Functional Extruder CAD and STL's released
-- No bells and whistles for now. LED's and Filament sensor requires some more thonkering
-- Basic Rear Cover added to help with cable managment
-- Srepper gear mesh adjustmet added
- 
-
-05.12.2022:
-
-- 1'st 1:1 prototype assembled
-- went trough a compleate redesign for the cowling and the gearbox
-- nothing to release yet, however the CAD is in the repo for a first review
-
-
-## Some renderings of the new Design
-
-![Ghost 03](Images/ghost_alpha1_01.png)
-![Ghost 03](Images/ghost_alpha1_02.png)
-![Ghost 03](Images/ghost_alpha1_03.png)
-
-
-
-# Some first shots ..
-
-https://user-images.githubusercontent.com/1899323/203817806-552646dd-b743-40ac-975e-db16fed9496d.mp4
-
-
-
-![Ghost 03](Images/ghost_03.png)
-![Ghost 02](Images/ghost_02.png)
-![Ghost 01](Images/ghost_01.png)
