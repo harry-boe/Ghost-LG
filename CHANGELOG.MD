@@ -1,17 +1,34 @@
 # Changelog
 
-21.3.23
+14.09.2023
+- Re added Pin Mod
+- Some repo restructuring
+
+18.07.2023
+- RC2 Release
+  - Gearbox
+    Updated and strengthened idler
+    Updated beefier latch shuttle
+    Updated mid-section adopted to the new latch shuttle
+  - Motor Cover
+    Updated EBB35 mount with improved cooling and ventilation cut-outs
+    Updated pancake PCB mount
+  - Cowling
+    Multiple minor changes to eliminate thin walls
+  - Fix: Pinda probe mount. I did not had a Pinda probe to test so the old version mount was 1mm to small (diameter)
+
+21.03.2023
 - 20mm EBB CAN Mount stl added
 
-12.2.2023
+12.02.2023
 - updated CAD file (assembled) - there where some parts missing in the CAD
 - added a shortage prevention cover for the euklid probe
 - bigger mounting holes for euklid probe to prevent braking the part
 
-8.1.23
+8.01.2023
 - pin mod updated
 
-5.1.2012 RC1
+5.01.2023 RC1
 - see discription above
 - note that the manual has not been updated yet
 - same for the pin mod
